@@ -33,8 +33,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-      - name: Laravel PHPUnit
+      - name: Laravel PHP Insights Action
   # You may pin to the exact commit or the version.
-  # uses: nathanheffley/laravel-phpunit-action@1ac680fbc5f20621343f0d7ba450a02b807c576e
-        uses: nathanheffley/laravel-phpunit-action@v0.1.0
+  # uses: stefanzweifel/laravel-phpinsights-action@545323b0529d660610c56b23d039230670a35ae6
+        uses: stefanzweifel/laravel-phpinsights-action@v1.1.1
